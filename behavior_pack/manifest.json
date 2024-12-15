@@ -1,0 +1,38 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "pack.description",
+    "name": "pack.name",
+    "uuid": "44a9a55d-fa75-4dcb-9238-51452cbc7358",
+    "min_engine_version": [ 1, 21, 50 ],
+    "version": [ 1, 2, 0 ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "6a39536a-c42e-441b-9520-b6ffad818ba1",
+      "version": [ 1, 0, 0 ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "dda0f3fb-64fc-474f-b92d-71c82fa74e13",
+      "entry": "scripts/main.js",
+      "version": [ 1, 0, 0 ]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.17.0-beta"
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "JustAsh01"
+    ],
+    "license": "MIT",
+    "url": "https://github.com/Justash01/some-commands",
+    "product_type": "addon"
+  }
+}
